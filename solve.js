@@ -5,7 +5,6 @@ const searchBtn = document.querySelector('.search button');
 const weatherIcon = document.querySelector('.weather-icon');
 
 document.addEventListener("keyup", function(e) {
-    e.preventDefault()
     if(e.key === 13) {
         checkWeather(searchBox.value);
     }
